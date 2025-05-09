@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 2px solid #000;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  padding: 20px;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header Styling */
+.profile-header {
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.profile-header p {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+/* Canvas Card Section */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0d6efd;
+}
+
+/* Canvas Style */
+canvas {
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* Canvas Style */
+canvas {
+  border: 3px dashed #0d6efd;
+  border-radius: 10px;
+  background-color: #fefefe;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+  cursor: crosshair;
+}
+
+/* When hovered, canvas glows */
+canvas:hover {
+  box-shadow: 0 0 15px rgba(13, 110, 253, 0.5);
+}
+
+/* Container for interaction card */
+.card {
+  background: linear-gradient(to bottom right, #ffffff, #f0f8ff);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
